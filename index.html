@@ -58,8 +58,7 @@
             canvas.height = window.innerHeight;
             updateResponsiveValues();
         }
-        resizeCanvas();
-        updateResponsiveValues(); // Initialize responsive values
+
         window.addEventListener('resize', () => {
             resizeCanvas();
             repositionStars();
